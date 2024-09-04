@@ -2006,6 +2006,17 @@ input, select, textarea {
 /*			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff; */
 		}
+/* Change background handling for small screens */
+      @media (max-width: 900px) {
+      .wrapper.style2 {
+        background-image: none; /* Use a different image or none */
+        background-color: #000000;
+        background-size: cover; /* Adjust how the image scales */
+        background-position: center; /* Center the image */
+        padding: 4em 0; /* Adjust padding for smaller screens */
+    }
+}
+
 
 .wrapper.style2 h2 {
     font-size: 2em; /* Adjust the size */
