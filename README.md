@@ -1,1 +1,0 @@
-# vidakris.github.io
