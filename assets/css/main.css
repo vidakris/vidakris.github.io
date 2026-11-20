@@ -2514,4 +2514,11 @@ ul.social li a {
     width: 100px;
     height: 100px;
     text-decoration: none;
+	background: #fafafa;          /* gray background */
+	    border-radius: 8px;           /* optional: rounded corners */
+		    transition: background .2s ease-in-out;
+
 }
+ul.social li a:hover {
+    background: #e6e6e6;          /* slightly darker on hover */
+	}
