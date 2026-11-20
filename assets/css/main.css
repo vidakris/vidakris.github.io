@@ -2471,4 +2471,47 @@ input, select, textarea {
 	}
 
 
+#posters .row > [class*="col-"] > .box {
+    height: 100%;
+    padding: 5;
+}
+#publications .row > [class*="col-"] > .box {
+    height: 100%;
+    padding: 0;
+}
 
+#publications .box > a {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   /* icons at the top instead of centered */
+    height: 100%;
+    padding: 3em 2em 3.5em 2em;
+}
+
+#publications .box img {
+    display: block;
+    margin: 0 auto 1em;
+}
+
+ul.social {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+ul.social li {
+    margin: 0;
+}
+
+ul.social li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+}
