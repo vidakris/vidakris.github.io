@@ -2480,6 +2480,32 @@ input, select, textarea {
     padding: 0;
 }
 
+#publications .box.style1 h3 {
+    color: #3d3d3d;                       /* black by default */
+    transition: color .2s ease-in-out;
+}
+
+#publications .box.style1 p {
+    color: #888;                       /* subtitle stays gray, never changes */
+}
+
+#publications .box.style1 > a:hover h3 {
+    color: #43b3e0;                    /* title turns blue on hover */
+}
+
+#publications .box.style1 img {
+    transition: transform .2s ease-in-out;
+}
+
+#publications .box.style1 > a:hover img {
+    transform: translateY(-6px);
+}
+
+#publications .box.style1 > a:hover img {
+    transform: translateY(-6px) scale(1.05);
+    filter: drop-shadow(0 6px 4px rgba(0, 0, 0, .15));
+}
+
 #publications .box > a {
     box-sizing: border-box;
     display: flex;
@@ -2522,3 +2548,4 @@ ul.social li a {
 ul.social li a:hover {
     background: #e6e6e6;          /* slightly darker on hover */
 	}
+
